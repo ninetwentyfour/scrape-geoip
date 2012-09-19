@@ -1,6 +1,6 @@
-# Scrape::Geoip
+# ScrapeGeoip
 
-TODO: Write a gem description
+Scrape http://www.geoiptool.com/ for ip information
 
 ## Installation
 

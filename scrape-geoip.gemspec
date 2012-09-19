@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Travis Berry"]
   gem.email         = ["contact@travisberry.com"]
   gem.description   = %q{Scrape http://www.geoiptool.com/ for ip information}
-  gem.summary       = %q{Scrape http://www.geoiptool.com/ for ip information}
+  gem.summary       = %q{Scrape http://www.geoiptool.com/}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

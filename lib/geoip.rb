@@ -1,8 +1,8 @@
-require "scrape-geoip/version"
+require "geoip/version"
 require 'nokogiri'
 require 'open-uri'
 
-module ScrapeGeoip
+module Geoip
   def self.scrape(ip)
     url = "http://www.geoiptool.com/en/?#{ip}"
     doc = Nokogiri::HTML(open(url))

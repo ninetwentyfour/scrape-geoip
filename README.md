@@ -1,4 +1,5 @@
 # Sgeoip
+[![Build Status](https://secure.travis-ci.org/ninetwentyfour/scrape-geoip.png)](http://travis-ci.org/ninetwentyfour/scrape-geoip)
 
 Scrape http://www.geoiptool.com/ for ip information
 

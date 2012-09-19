@@ -1,4 +1,4 @@
-# Geoip
+# Sgeoip
 
 Scrape http://www.geoiptool.com/ for ip information
 
@@ -6,7 +6,7 @@ Scrape http://www.geoiptool.com/ for ip information
 
 Add this line to your application's Gemfile:
 
-    gem 'geoip'
+    gem 'sgeoip'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install geoip
+    $ gem install sgeoip
 
 ## Usage
 

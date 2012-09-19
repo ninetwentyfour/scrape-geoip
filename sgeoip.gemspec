@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Scrape http://www.geoiptool.com/}
   gem.homepage      = ""
 
-  gem.files         = ["./lib/sgeoip.rb"]
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.require_paths = ["./lib"]
+  gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.files         = `git ls-files`.split("\n")
+  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
+  gem.require_paths = ["lib"]
 
   gem.add_dependency 'nokogiri'
 end

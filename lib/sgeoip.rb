@@ -1,4 +1,4 @@
-require "geoip/version"
+require "sgeoip/version"
 require 'nokogiri'
 require 'open-uri'
 

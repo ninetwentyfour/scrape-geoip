@@ -1,3 +1,3 @@
-module Geoip
-  VERSION = "0.0.6"
+module Sgeoip
+  VERSION = "0.0.8"
 end

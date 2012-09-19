@@ -5,7 +5,7 @@ require 'scrape-geoip/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "scrape-geoip"
-  gem.version       = Scrape::Geoip::VERSION
+  gem.version       = ScrapeGeoip::VERSION
   gem.authors       = ["Travis Berry"]
   gem.email         = ["contact@travisberry.com"]
   gem.description   = %q{Scrape http://www.geoiptool.com/ for ip information}

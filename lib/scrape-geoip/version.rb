@@ -1,5 +1,3 @@
-module Scrape
-  module Geoip
-    VERSION = "0.0.2"
-  end
+module ScrapeGeoip
+  VERSION = "0.0.2"
 end

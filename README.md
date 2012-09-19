@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    require 'sgeoip'
+
+	ip_info = Sgeoip::scrape('8.8.8.8')
+	puts ip_info
+	
+## Expected output
+
+    {"host"=>"google-public-dns-a.google.com", "country"=>" United States ", "country_code"=>"US (USA)", "region"=>"California", "city"=>"Mountain View", "zip"=>"94043"}
 
 ## Contributing
 

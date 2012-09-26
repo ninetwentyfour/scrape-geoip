@@ -13,7 +13,7 @@ describe Sgeoip do
     ip_info["error"].should be_nil
   end
   
-  it 'should return an erro for a bad ip' do
+  it 'should return an error for a bad ip' do
     ip_info = Sgeoip::scrape('1.c.aa.p/')
     
     ip_info["error"].should == "Results Not Found"

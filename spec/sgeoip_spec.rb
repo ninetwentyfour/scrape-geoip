@@ -43,4 +43,15 @@ describe Sgeoip do
     ip_info["error"].should == "Results Not Found"
   end
   
+  it 'should strip and special non utf-8 characters' do
+    ip_info = Sgeoip::scrape('189.62.243.113')
+
+    ip_info["host"].should == "bd3ef371.virtua.com.br"
+    ip_info["country"].should == "Brazil"
+    ip_info["country_code"].should == "BR (BRA)"
+    ip_info["region"].should == "Sao Paulo"
+    ip_info["city"].should == "So Paulo"
+    ip_info["error"].should be_nil
+  end
+  
 end

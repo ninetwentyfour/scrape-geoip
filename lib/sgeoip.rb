@@ -8,10 +8,11 @@ require 'geo_location'
 
 module Sgeoip  
   def self.scrape(ip)
-    geoip = geoiptool(ip)
-    if geoip["error"]
-      geoip = hostip(ip)
-    end
+    # geoip = geoiptool(ip)
+    # if geoip["error"]
+    #   geoip = hostip(ip)
+    # end
+    geoip = hostip(ip)
     geoip
   end
   

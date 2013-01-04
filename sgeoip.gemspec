@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'nokogiri'
   gem.add_dependency 'geo_location'
-  gem.add_dependency 'active_support'
+  gem.add_dependency(%q<activesupport>, ["3.2.9"])
   gem.add_development_dependency 'rspec'
 end
